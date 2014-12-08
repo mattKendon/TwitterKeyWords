@@ -1,0 +1,4 @@
+outlandish_twitter_key_words:
+    resource: "@OutlandishTwitterKeyWordsBundle/Resources/config/routing.yml"
+    prefix:   /
+

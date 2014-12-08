@@ -1,0 +1,3 @@
+outlandish_twitter_key_words_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: OutlandishTwitterKeyWordsBundle:Default:index }
