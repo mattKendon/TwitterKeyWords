@@ -37,14 +37,14 @@ app.chart = {
             title: 'Significance of Key Words',
             hAxis: {
                 title: 'Mentions on Day',
-                //logScale: true,
-                maxValue: 1000,
+                logScale: true,
+                maxValue: 100,
                 minValue: 0
             },
             vAxis: {
                 title: 'Background Mentions',
-                //logScale: true,
-                maxValue: 1000,
+                logScale: true,
+                maxValue: 100,
                 minValue: 0
             },
             bubble: {textStyle: {fontSize: 11}},
