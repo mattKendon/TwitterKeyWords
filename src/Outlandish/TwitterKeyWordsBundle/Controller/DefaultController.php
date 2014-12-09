@@ -13,6 +13,11 @@ class DefaultController extends Controller
             return $this->render('OutlandishTwitterKeyWordsBundle:Default:noName.html.twig');
 
         }
-        return $this->render('OutlandishTwitterKeyWordsBundle:Default:index.html.twig', array('name' => $name));
+        $args = array(
+            'name' => $name,
+            'data' => array()
+        );
+
+        return $this->render('OutlandishTwitterKeyWordsBundle:Default:index.html.twig', $args);
     }
 }
